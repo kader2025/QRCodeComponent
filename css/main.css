@@ -1,0 +1,67 @@
+:root {
+    /*  primary colors */
+    --Slate-300: #D5E1EF;
+    --Slate-500: #68778D;
+    --Slate-900: #1F314F;
+    /* Fonts */
+    --font-family: "Outfit", sans-serif;
+
+    /* Font Weights */
+   
+    --font-regular: 400;
+    --font-bold: 700;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: var(--Slate-300);
+  box-sizing: border-box;
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+}
+
+.content {
+  display: grid;
+  width: 288px;
+  height: 443px;
+  background-color: white;
+  border-radius: 20px;
+  padding: 16px 16px 20px 16px;
+  align-content: stretch;
+  grid-gap: 24px;
+}
+.img {
+  background-image: url("../img/image-qr-code.png");
+  background-size: cover;
+  border-radius: 10px;
+  height: 288px;
+  width: 288px;
+}
+.text {
+  display: grid;
+  height: 131px;
+  width: 256px;
+  align-content: stretch;
+  grid-gap: 16px;
+  padding: 0px 16px;
+}
+.title {
+  font-size: 22px;
+  color: var(--Slate-900);
+  font-weight: var(--font-bold);
+  text-align: center;
+  letter-spacing: 0px;
+  line-height: 120%;
+  margin: 0px;
+}
+.description {
+  font-size: 15px;
+  color: var(--Slate-500);
+  font-weight: var(--font-regular);
+  text-align: center;
+  line-height: 140%;
+  letter-spacing: 0.3px;
+  margin: 0px;
+}
